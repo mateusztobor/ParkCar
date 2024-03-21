@@ -1,0 +1,29 @@
+name: park_car
+description: Park your car with out app!
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.5
+  path_provider: 2.0.14
+  url_launcher: 6.1.10
+  geolocator: 9.0.2
+  permission_handler: 10.2.0
+  flutter_localization: 0.1.9
+  intl: 0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
